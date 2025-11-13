@@ -19,7 +19,9 @@ This project automates the **ETL (Extract, Transform, Load)** process using **Ap
   - Transaction ratio by type (Deposit, Withdrawal, Payment, Transfer)  
   - Top customers by transaction amount  
   - Average and median transaction values  
-  - Distribution of transaction sizes  
+  - Distribution of transaction sizes
+![dashboard](https://github.com/user-attachments/assets/8c75864a-e131-46b5-80ed-71a63f279045)
+
 
 - Automated ETL execution through the **DAG `customer_transaction_etl_python_only`** in Airflow.
 
