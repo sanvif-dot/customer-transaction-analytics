@@ -1,0 +1,18 @@
+AIRFLOW_CONN_POSTGRES_DEFAULT=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Airflow
+logs/
+config/
+.env
+.env.*
+data/
+.D
+
+# Docker volumes
+*/postgres-data/
+*/postgres-metabase/

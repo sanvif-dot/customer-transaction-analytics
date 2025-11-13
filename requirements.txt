@@ -1,0 +1,7 @@
+# Untuk PostgresOperator
+apache-airflow-providers-postgres
+
+# Untuk fungsi transform_load (Pandas dan koneksi SQL)
+pandas
+sqlalchemy
+psycopg2-binary
