@@ -29,51 +29,51 @@ This project automates the **ETL (Extract, Transform, Load)** process using **Ap
 
 
 📊 Dashboard Insights
+
+
 1️⃣ Transaction Ratio by Type
 
 Purpose: To understand how different transaction types (Deposit, Withdrawal, Payment, Transfer) contribute to overall transaction activity.
-Insight:
 
-Each type represents roughly 25% of all transactions, showing a balanced usage across transaction categories.
 
-This indicates customers engage evenly in saving, spending, and fund transfer activities — useful for identifying behavioral balance among account holders.
+Insight: 
+- Each type represents roughly 25% of all transactions, showing a balanced usage across transaction categories.
+- This indicates customers engage evenly in saving, spending, and fund transfer activities — useful for identifying behavioral balance among account holders.
 
 2️⃣ Top Customers by Transaction Amount
 
 Purpose: To identify customers with the highest total transaction volume.
+
+
 Insight:
 
-The top five customers (e.g., Jonathan Gentry, Roberto Goodwin) contribute a significant portion of total transaction volume.
-
-This helps the bank focus retention and cross-sell strategies on high-value customers and monitor large transaction accounts for compliance.
+- The top five customers (e.g., Jonathan Gentry, Roberto Goodwin) contribute a significant portion of total transaction volume.
+- This helps the bank focus retention and cross-sell strategies on high-value customers and monitor large transaction accounts for compliance.
 
 3️⃣ Average and Median Transaction Values
 
 Purpose: To summarize overall customer spending and inflow/outflow behavior.
+
+
 Insight:
 
-Average transaction value: ≈ 12,876
-
-Median transaction value: ≈ 12,365
-
-The close gap between mean and median indicates a fairly balanced distribution with few extreme outliers, suggesting consistent transaction patterns across customers.
+- Average transaction value: ≈ 12,876
+- Median transaction value: ≈ 12,365
+- The close gap between mean and median indicates a fairly balanced distribution with few extreme outliers, suggesting consistent transaction patterns across customers.
 
 4️⃣ Distribution of Transaction Sizes
 
 Purpose: To segment transactions into size ranges for better understanding of customer activity levels.
+
 Segments:
-
-Low (<10K)
-
-Medium (10K–20K)
-
-High (>20K)
+- Low (<10K)
+- Medium (10K–20K)
+- High (>20K)
 
 Insight:
 
-The Medium (10K–20K) range dominates, indicating most customers perform moderate-sized transactions.
-
-High-value transactions (>20K) form a smaller but significant portion — often representing high-income or corporate clients.
+- The Medium (10K–20K) range dominates, indicating most customers perform moderate-sized transactions.
+- High-value transactions (>20K) form a smaller but significant portion — often representing high-income or corporate clients.
 
 5️⃣ Transaction Ratio: Inflow vs Outflow
 
@@ -85,9 +85,8 @@ Outflow: Withdrawals + Payments
 
 Insight:
 
-Outflow accounts for 67.1%, while Inflow is 32.9%, suggesting customers are spending or transferring more funds than they deposit.
-
-This imbalance could indicate increased payment activity, lending opportunities, or seasonal spending behavior.
+- Outflow accounts for 67.1%, while Inflow is 32.9%, suggesting customers are spending or transferring more funds than they deposit.
+- This imbalance could indicate increased payment activity, lending opportunities, or seasonal spending behavior.
 
 ## ⚙️ Architecture Overview
 
